@@ -1,0 +1,21 @@
+From UCPOP [which they got from Prodigy].  Note: there is no operator 
+to get back down from a box...
+
+(operator 
+ ALLERBOITE
+ (params )
+ (preconds (hasMoney))
+ (effect (del hasMoney) (hasBoite)))
+
+(operator
+ ALLERCINE
+ (params )
+ (preconds (hasMoney))
+ (effect (del hasMoney) (hasCinema)))
+ 
+(operator
+ BRAQUAGE
+ (params )
+ (preconds )
+ (effect (hasMoney)))
+

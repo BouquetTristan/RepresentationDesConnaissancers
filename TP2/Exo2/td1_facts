@@ -1,0 +1,10 @@
+From UCPOP [which they got from Prodify]. 
+(p1)
+(p2)
+(p3)
+(p4)
+
+(preconds (robot p1) (tenir p2) (objet p3 p4) (porte p1 p4) (porte p4 p1))
+
+(effects (objet p3 p1))
+

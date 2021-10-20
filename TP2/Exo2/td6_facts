@@ -1,0 +1,7 @@
+From UCPOP [which they got from Prodify]. 
+(p1)
+
+(preconds (hasMoney))
+
+(effects (hasCinema) (hasBoite))
+
